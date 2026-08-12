@@ -1144,7 +1144,9 @@ function RealProjectImpact() {
       <div className="real-project-kicker"><span>REAL PROJECT IN ACTION</span><b>真实项目 · 真实结果</b></div>
       <div className="real-project-layout">
         <figure className="real-project-visual">
-          <div className="real-project-photo" role="img" aria-label="某互联网大厂总部中庭艺术装置与建筑空间" style={{ backgroundImage: `linear-gradient(180deg, transparent 60%, rgba(8,14,27,.42)), url("${publicAsset("project-photo.jpg")}")` }} />
+          <div className="real-project-photo">
+            <img src={publicAsset("project-photo.jpg")} alt="某互联网大厂总部中庭艺术装置与建筑空间" />
+          </div>
           <figcaption><i><Building2 size={27} /></i><span><b>某互联网大厂总部改造项目</b><small>大型改造 · 全周期成本管理</small></span></figcaption>
         </figure>
         <div className="real-project-content">
